@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import { getMaps } from '@pages/Home/service';
+import { getMaps } from 'pages/Home/service';
 
 function Home() {
   const [data, setData] = useState();

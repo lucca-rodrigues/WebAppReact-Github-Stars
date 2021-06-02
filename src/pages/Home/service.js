@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { toast } from 'react-toastify';
-import getEndpoints from '@services/endpoints';
+import getEndpoints from 'services/endpoints';
 
 export async function getMaps() {
   return axios
